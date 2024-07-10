@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_fit_list">
+
+    <fragment
+        android:id="@+id/navigation_fit_list"
+        android:name="ru.koolmax.fitopener.presentation.ui.Main.FitList.FitListFragment"
+        android:label="fragment_fit_list"
+        tools:layout="@layout/fragment_fit_list" />
+    <fragment
+        android:id="@+id/navigation_calendar"
+        android:name="ru.koolmax.fitopener.presentation.ui.Main.Calendar.CalendarFragment"
+        android:label="fragment_calendar"
+        tools:layout="@layout/fragment_calendar" />
+    <fragment
+        android:id="@+id/navigation_statistics"
+        android:name="ru.koolmax.fitopener.presentation.ui.Main.Statistics.StatisticsFragment"
+        android:label="fragment_statistics"
+        tools:layout="@layout/fragment_statistics" />
+    <activity
+        android:id="@+id/navigation_workout"
+        android:name="ru.koolmax.fitopener.presentation.ui.Workout.WorkoutActivity"
+        android:label="activity_workout"
+        tools:layout="@layout/activity_workout" >
+        <argument
+            android:name="fit"
+            app:argType="string" />
+    </activity>
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="ru.koolmax.fitopener.presentation.ui.Main.Profile.SettingsFragment"
+        android:label="fragment_settings" />
+    <fragment
+        android:id="@+id/navigation_device_list"
+        android:name="ru.koolmax.fitopener.presentation.ui.Main.DeviceList.DeviceListFragment"
+        android:label="fragment_device"
+        tools:layout="@layout/fragment_device_list" />
+    <activity
+        android:id="@+id/navigation_device"
+        android:name="ru.koolmax.fitopener.presentation.ui.Device.DeviceActivity"
+        android:label="activity_device"
+        tools:layout="@layout/activity_device">
+        <argument
+            android:name="address"
+            app:argType="string" />
+    </activity>
+
+</navigation>

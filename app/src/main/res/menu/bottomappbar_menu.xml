@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_device_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/bluetooth_searching_foreground"
+        android:title="Список"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/navigation_fit_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/lists"
+        android:title="Список"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/navigation_calendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/calendar_month"
+        android:title="Календарь"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/navigation_statistics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/query_stats"
+        android:title="Статистика"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/navigation_settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/manage_accounts"
+        android:title="Профиль"
+        app:showAsAction="always" />
+</menu>

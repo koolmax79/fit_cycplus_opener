@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.FitOpener" parent="Theme.Material3.Dark">
+        <item name="pagesColor">?android:windowBackground</item>
+        <item name="abbreviationsBarColor">?android:windowBackground</item>
+        <item name="headerColor">?attr/colorSecondary</item>
+        <item name="daysLabelsColor">?android:textColorPrimary</item>
+        <item name="np_selectedTextColor">?android:textColorPrimary</item>
+        <item name="np_textColor">?android:textColorPrimary</item>
+    </style>
+</resources>

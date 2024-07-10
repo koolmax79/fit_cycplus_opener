@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#FFF</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="zone1">#FF8088c0</color>
+    <color name="zone2">#FF6f996a</color>
+    <color name="zone3">#FFedc557</color>
+    <color name="zone4">#FFf0a657</color>
+    <color name="zone5">#FFde8d8d</color>
+    <color name="ALTITUDE">#575E71</color>
+    <color name="SPEED">#FF8800</color>
+    <color name="GRADE">#C00003</color>
+    <color name="HEART">#CC0000</color>
+    <color name="CADENCE">#2B4678</color>
+    <color name="TEMPERATURE">#FFBB33</color>
+    <color name="HEART_TIME">#930001</color>
+    <color name="shrine_pink_100">#F8BBD0</color>
+    <color name="shrine_pink_light">#F06292</color>
+    <color name="shrine_pink_900">#880E4F</color>
+
+    <color name="statistics_distance">#FF3700B3</color>
+    <color name="statistics_chip_ascent">@color/ALTITUDE</color>
+    <color name="statistics_chip_moving_time">@color/HEART_TIME</color>
+    <color name="statistics_chip_heart_rate">@color/HEART</color>
+    <color name="statistics_chip_speed">@color/SPEED</color>
+</resources>

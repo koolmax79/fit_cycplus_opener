@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.FitOpener" parent="Theme.Material3.Light">
+        <item name="pagesColor">?android:windowBackground</item>
+        <item name="abbreviationsBarColor">?android:windowBackground</item>
+        <item name="headerColor">?attr/colorSecondary</item>
+        <item name="daysLabelsColor">?android:textColorPrimary</item>
+        <item name="np_selectedTextColor">?android:textColorPrimary</item>
+        <item name="np_textColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="Theme.FitOpener.NoActionBar">
+        <!--item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item-->
+    </style>
+
+    <style name="Theme.FitOpener.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.FitOpener.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="ThemeOverlay.App.MaterialAlertDialog" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="colorPrimary">@color/shrine_pink_100</item>
+        <item name="colorSecondary">@color/shrine_pink_100</item>
+        <item name="colorSurface">@color/shrine_pink_light</item>
+        <item name="colorOnSurface">@color/shrine_pink_900</item>
+        <item name="alertDialogStyle">@style/MaterialAlertDialog.App</item>
+        <item name="materialAlertDialogTitleTextStyle">@style/MaterialAlertDialog.App.Title.Text</item>
+        <item name="buttonBarPositiveButtonStyle">@style/Widget.App.Button</item>
+        <item name="buttonBarNeutralButtonStyle">@style/Widget.App.Button</item>
+    </style>
+</resources>
